@@ -13,7 +13,8 @@ uint32_t reverseBits(uint32_t n){
 }
 int main()
 {
-    uint32_t n = 11111111111111111111111111111101;
+    uint32_t n;
+      cin>>n;
     
     uint32_t ans = reverseBits(n);
     cout<<ans<<endl;
